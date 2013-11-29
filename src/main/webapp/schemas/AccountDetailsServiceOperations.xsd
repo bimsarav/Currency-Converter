@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://com/blog/samples/webservices/accountservice" xmlns:account="http://webservices.samples.blog.com" targetNamespace="http://com/blog/samples/webservices/accountservice" elementFormDefault="qualified">
+	<xsd:import namespace="http://webservices.samples.blog.com" schemaLocation="AccountDetails.xsd"/>
+	<xsd:element name="CurrencyRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Currency" type="xsd:string"/>
+			  	<xsd:element name="Value" type="xsd:double"/> 
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CurrencyResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="CurrencyRes" type="account:Account"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
