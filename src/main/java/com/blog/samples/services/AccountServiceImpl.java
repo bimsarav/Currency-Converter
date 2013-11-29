@@ -16,7 +16,7 @@ public class AccountServiceImpl implements AccountService
 
 	
 	// Available currency types
-	String[] currencyType = {"LKR","INR","JPY","GBP","AUD","EUR"."USD","OMR"};
+	String[] currencyType = {"LKR","INR","JPY","GBP","AUD","EUR","USD","OMR"};
 	// value for USD
 	double[] valueArray = {131.13,62.24,101.53,0.62,1.10,0.74,1.0,0.39};
 	

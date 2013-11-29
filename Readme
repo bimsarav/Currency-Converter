@@ -1,5 +1,5 @@
 WSDL ::  http://localhost:8080/spring-webservices-sample/endpoints/AccountDetailsService.wsdl
-Available Currency Types : "LKR","INR","JPY","GBP","AUD","EUR","USD","OMR"
+Available Currency Types : "LKR","INR","JPY","GBP","AUD","EUR"
 
 Request xml: 
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:acc="http://com/blog/samples/webservices/accountservice">
